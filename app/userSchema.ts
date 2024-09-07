@@ -11,3 +11,5 @@ export const userData = {
   email: "john@example.com",
   age: 25,
 };
+
+export type User = v.InferInput<typeof userSchema>;

@@ -1,4 +1,5 @@
 import { ParseExample } from "./ParseExample";
+import { ReactHookFormPane } from "./ReactHookFormPane";
 import { SafeParseExample } from "./SafeParseExample";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       HOME
       <ParseExample />
       <SafeParseExample />
+      <ReactHookFormPane />
     </div>
   );
 }
